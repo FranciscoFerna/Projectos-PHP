@@ -142,7 +142,7 @@
 
     <footer>
         <div class="container footer-content">
-            <small><a href="https://itecbcn.eu" target="_blank" rel="noopener">Institut Tecnològic de Barcelona 2024</a></small>
+            <small><a href="https://itecbcn.eu" target="_blank" rel="noopener">Institut Tecnològic de Barcelona 2025</a></small>
             <div class="social-links">
                 <span class="credits">Desarrollado por Francisco Fernández</span>
                 <a href="https://github.com/FranciscoFerna" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
