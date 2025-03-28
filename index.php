@@ -195,9 +195,13 @@
         function resetFilter() {
             const folders = document.getElementsByClassName("folder-filter");
             const files = document.getElementsByClassName("file-filter");
+            
+            // For folders (which are <details> elements), we need to preserve their display type
             for (let e of folders) {
-                e.style.display = "flex";
+                e.style.display = "block"; // Details elements should be block, not flex
             }
+            
+            // For files, we keep flex display
             for (let e of files) {
                 e.style.display = "flex";
             }
